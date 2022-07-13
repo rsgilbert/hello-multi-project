@@ -11,7 +11,11 @@ dependencies {
     implementation project(':utilities')
 }
 
+//application {
+//    // Define the main class for the application.
+//    mainClass = 'hello.multi.project.app.App'
+//}
+
 application {
-    // Define the main class for the application.
-    mainClass = 'hello.multi.project.app.App'
+    mainClass = "hello.multi.project.app.App2"
 }

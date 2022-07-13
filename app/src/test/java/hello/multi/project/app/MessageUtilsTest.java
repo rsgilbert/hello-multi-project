@@ -3,12 +3,19 @@
  */
 package hello.multi.project.app;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 class MessageUtilsTest {
     @Test void testGetMessage() {
         assertEquals("Hello      World!", MessageUtils.getMessage());
+    }
+
+    @Test
+    void testCry() {
+        Assertions.assertEquals(8, 8);
     }
 }

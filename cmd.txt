@@ -1,0 +1,17 @@
+// Create project
+gradle init
+
+// Run tests in all subjects
+./gradlew check
+
+// Run tests for a specific subject
+./gradlew :list:check
+./gradlew :utilities:check
+../gradlew :app:check
+
+// gradle files are also stored in ~/.gradle/wrapper/dists folder
+
+// bundle application into a single archive
+// archive will be located in ./app/build/ folder
+./gradlew build
+
